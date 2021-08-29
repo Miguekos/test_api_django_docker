@@ -13,9 +13,17 @@ $ docker-compose run app python manage.py makemigrations
 $ docker-compose run app python manage.py migrate
 ```
 
+### Test
+http://localhost:8000/api/worker
+http://localhost:8000/api/worker/<id>
+
 ### Demo
 ```sh
-$ http://localhost:8000/api/worker
+- get_all
+$ http://95.111.235.214:8002/api/worker
+
+- create
+$ http://95.111.235.214:8002/api/worker
 POST
 {    
     "first_name" : "Miguel",
