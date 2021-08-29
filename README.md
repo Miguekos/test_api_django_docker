@@ -13,9 +13,9 @@ $ docker-compose run app python manage.py makemigrations
 $ docker-compose run app python manage.py migrate
 ```
 
-### Test
-http://localhost:8000/api/worker
-http://localhost:8000/api/worker/<id>
+### Endpoints
+- http://localhost:8000/api/worker
+- http://localhost:8000/api/worker/<id>
 
 ### Demo
 ```sh
